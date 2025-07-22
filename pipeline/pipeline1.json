@@ -91,7 +91,11 @@
 								"sink": {
 									"type": "JsonSink",
 									"storeSettings": {
-										"type": "AzureBlobFSWriteSettings"
+										"type": "AzureBlobFSWriteSettings",
+										"copyBehavior": {
+											"value": "@concat('Customer/', formatDateTime(utcNow(),'yyyy'), '/', formatDateTime(utcNow(),'MM'), '/', formatDateTime(utcNow(),'dd'))",
+											"type": "Expression"
+										}
 									},
 									"formatSettings": {
 										"type": "JsonWriteSettings"
