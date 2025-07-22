@@ -1,6 +1,21 @@
 {
 	"name": "Foreach_Example2",
 	"properties": {
+		"variables": {
+			"TableList": {
+				"type": "Array",
+				"defaultValue": [
+					{
+						"query": "SELECT * FROM Product WHERE ProductID > 100",
+						"fileName": "products.json"
+					},
+					{
+						"query": "SELECT * FROM Customer WHERE CustomerID > 100 AND CustomerID < 1000",
+						"fileName": "customers.json"
+					}
+				]
+			}
+		},
 		"annotations": []
 	}
 }
