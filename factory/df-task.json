@@ -1,0 +1,9 @@
+{
+	"name": "df-task",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b8d7901-8578-43e8-85bf-c763513218d1",
+		"tenantId": "dcea571b-e6ed-445f-be2f-5cd417b1410a"
+	}
+}
