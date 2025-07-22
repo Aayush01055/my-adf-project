@@ -58,6 +58,12 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "If Condition1",
+				"type": "IfCondition",
+				"dependsOn": [],
+				"userProperties": []
 			}
 		],
 		"annotations": []
